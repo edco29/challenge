@@ -1,0 +1,6 @@
+- hosts: gcp-instance
+  become: True
+  user: "edwindavidcontrerastorres"
+  gather_facts: yes
+  roles:
+    - { role: jenkins }

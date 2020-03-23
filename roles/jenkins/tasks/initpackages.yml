@@ -1,0 +1,19 @@
+- name : Install java 8
+  shell:  yum install  -y java-1.8.0-openjdk java-1.8.0-openjdk-devel 
+
+- name: Set JAVA_HOME if configured.
+  template:
+    src: java_home.sh.j2
+    dest: /etc/profile.d/java_home.sh
+    mode: 0655
+  when: java_home is defined and java_home
+  
+- name: install the latest version of git
+  yum:
+    name: git
+    state: latest
+
+- name: install the latest version of maven
+  yum:
+    name: maven
+    state: latest
