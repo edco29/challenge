@@ -11,7 +11,7 @@ echo -e """
 
 Please in order to execute correctly this script check carefully the description bellow :
 
-This script recive only 3 inputs :
+This script recive only 2 inputs :
 
 ${GREEN}gc ò GC ${NOCOLOR}:
  - Create a Google compute with firewall rules ,  centos 7 imges and custom network.

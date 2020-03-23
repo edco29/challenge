@@ -8,3 +8,8 @@ Aprovisioning google compute instance & Installs Jenkins CI on RHEL/CentOS .
 - ansible-playbook  software
 
 
+Execute  `./_startup.sh`
+
+Remember that you have to choose between 2 options ( gc ò an)
+    -Once you insert gc , you need set your public key in your google cloud instance
+    -Then running ansible playbook
