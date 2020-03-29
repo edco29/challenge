@@ -5,7 +5,7 @@ Aprovisioning google compute instance & Installs Jenkins CI on RHEL/CentOS .
 ## Requirements
 - Google Service Account 
 - We need to insert public key inside google compute 
-- ansible-playbook  software
+- ansible-playbook
 
 
 Execute  `./_startup.sh`
